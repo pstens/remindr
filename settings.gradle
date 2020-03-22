@@ -1,7 +1,4 @@
-include ':cache'
-rootProject.name='comstats'
+rootProject.name='remindr'
 include ':app'
 include ':domain'
 include ':data'
-include ':usecases'
-include ':remote'
