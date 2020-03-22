@@ -1,0 +1,7 @@
+include ':cache'
+rootProject.name='comstats'
+include ':app'
+include ':domain'
+include ':data'
+include ':usecases'
+include ':remote'

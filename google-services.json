@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1044371073908",
+    "firebase_url": "https://ivylee-c4e4e.firebaseio.com",
+    "project_id": "ivylee-c4e4e",
+    "storage_bucket": "ivylee-c4e4e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1044371073908:android:be1422dffcfd7fd4d3da21",
+        "android_client_info": {
+          "package_name": "dev.pstens.ivylee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1044371073908-8kj013g6hed28sv4bepr2bce4c46va57.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6hYkuzAlPBz45ZKF-z1gbae9yOMBOHgg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1044371073908-8kj013g6hed28sv4bepr2bce4c46va57.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
