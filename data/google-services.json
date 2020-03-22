@@ -8,9 +8,9 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1044371073908:android:be1422dffcfd7fd4d3da21",
+        "mobilesdk_app_id": "1:1044371073908:android:d335a62955ffb2c1d3da21",
         "android_client_info": {
-          "package_name": "dev.pstens.ivylee"
+          "package_name": "dev.pstens.remindr"
         }
       },
       "oauth_client": [

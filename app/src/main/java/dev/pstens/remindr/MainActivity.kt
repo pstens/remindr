@@ -13,6 +13,7 @@ class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
     private val viewModel by viewModel<StatsViewModel>()
+    private val userViewModel by viewModel<UserViewModel>()
     private val itemAdapter = ItemAdapter<StatItem>()
     private val fastAdapter = FastAdapter.with(itemAdapter)
 
@@ -21,14 +22,11 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
         binding.content.adapter = fastAdapter
-//        viewModel.stats.observe(this, Observer<List<StatItem>> { items ->
-//            itemAdapter.set(items)
-//        })
         binding.refresh.setOnClickListener {
             viewModel.loadStats(refresh = false)
         }
         binding.refreshServer.setOnClickListener {
-            viewModel.loadStats(refresh = true)
+            userViewModel.login("aoe@mail.com", "password")
         }
     }
 
